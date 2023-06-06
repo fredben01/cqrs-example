@@ -1,0 +1,17 @@
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Account.Query.Application.deps.json
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Account.Query.Application.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Account.Query.Application.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Account.Query.Domain.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Cqrs.Core.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Account.Query.Domain.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\bin\Debug\net6.0\Banking.Cqrs.Core.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.csproj.AssemblyReference.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.AssemblyInfoInputs.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.AssemblyInfo.cs
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.csproj.CoreCompileInputs.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.csproj.CopyComplete
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\refint\Banking.Account.Query.Application.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\Banking.Account.Query.Application.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Account.Query.Application\obj\Debug\net6.0\ref\Banking.Account.Query.Application.dll

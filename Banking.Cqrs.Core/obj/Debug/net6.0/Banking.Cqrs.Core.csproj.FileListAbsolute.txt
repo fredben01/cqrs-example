@@ -1,0 +1,12 @@
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\bin\Debug\net6.0\Banking.Cqrs.Core.deps.json
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\bin\Debug\net6.0\Banking.Cqrs.Core.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\bin\Debug\net6.0\Banking.Cqrs.Core.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.csproj.AssemblyReference.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.AssemblyInfoInputs.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.AssemblyInfo.cs
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.csproj.CoreCompileInputs.cache
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\refint\Banking.Cqrs.Core.dll
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\Banking.Cqrs.Core.pdb
+D:\Freddy\VD\MicroServicesNet\ExampleCQRSEventSourcing\Banking.Cqrs.Core\obj\Debug\net6.0\ref\Banking.Cqrs.Core.dll

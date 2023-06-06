@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Api\\Banking.Account.Query.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Api\\Banking.Account.Query.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Api\\Banking.Account.Query.Api.csproj",
+        "projectName": "Banking.Account.Query.Api",
+        "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Api\\Banking.Account.Query.Api.csproj",
+        "packagesPath": "C:\\Users\\fred_\\.nuget\\packages\\",
+        "outputPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fred_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\Banking.Account.Query.Infrastructure.csproj": {
+                "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\Banking.Account.Query.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\Banking.Account.Query.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\Banking.Account.Query.Application.csproj",
+        "projectName": "Banking.Account.Query.Application",
+        "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\Banking.Account.Query.Application.csproj",
+        "packagesPath": "C:\\Users\\fred_\\.nuget\\packages\\",
+        "outputPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fred_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\Banking.Account.Query.Domain.csproj": {
+                "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\Banking.Account.Query.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\Banking.Account.Query.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\Banking.Account.Query.Domain.csproj",
+        "projectName": "Banking.Account.Query.Domain",
+        "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\Banking.Account.Query.Domain.csproj",
+        "packagesPath": "C:\\Users\\fred_\\.nuget\\packages\\",
+        "outputPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fred_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj": {
+                "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\Banking.Account.Query.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\Banking.Account.Query.Infrastructure.csproj",
+        "projectName": "Banking.Account.Query.Infrastructure",
+        "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\Banking.Account.Query.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\fred_\\.nuget\\packages\\",
+        "outputPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fred_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\Banking.Account.Query.Application.csproj": {
+                "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Account.Query.Application\\Banking.Account.Query.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj",
+        "projectName": "Banking.Cqrs.Core",
+        "projectPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj",
+        "packagesPath": "C:\\Users\\fred_\\.nuget\\packages\\",
+        "outputPath": "D:\\Freddy\\VD\\MicroServicesNet\\ExampleCQRSEventSourcing\\Banking.Cqrs.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fred_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

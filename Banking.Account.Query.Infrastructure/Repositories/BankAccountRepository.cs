@@ -1,0 +1,85 @@
+﻿using Banking.Account.Query.Application.Contracts.Persistence;
+using Banking.Account.Query.Domain;
+using Banking.Account.Query.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Banking.Account.Query.Infrastructure.Repositories
+{
+    public class BankAccountRepository : RepositoryBase<BankAccount>, IBankAccountRepository
+    {
+        public BankAccountRepository(MySqlDBContext context) : base(context)
+        {
+        }
+
+        public async Task DeleteByIdentifier(string identifier)
+        {
+            var bankAccount = await _context.BankAccounts!.Where(x => x.Identifier == identifier).FirstOrDefaultAsync();
+
+            if (bankAccount != null)
+            {
+                throw new Exception($"No se pudo eliminar a la cuenta bancaria con el id {identifier}");
+            }
+
+            _context.BankAccounts!.Remove(bankAccount);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DepositBankAccountByIdentifier(BankAccount bankAccount)
+        {
+            var account = await _context.BankAccounts!.Where(x => x.Identifier == bankAccount.Identifier).FirstOrDefaultAsync();
+
+            if (account != null)
+            {
+                throw new Exception($"No se pudo actualizar en mysql la cuenta de banco con identifier {bankAccount.Identifier}");
+            }
+
+            account.Balance += bankAccount.Balance;
+            await UpdateAsync(account);
+
+        }
+
+        public async Task<IEnumerable<BankAccount>> FindByAccountHolder(string identifier)
+        {
+            return await _context.BankAccounts!.Where(x => x.AccountHolder == identifier).ToListAsync();
+        }
+
+        public async Task<BankAccount> FindByAccountIdentifier(string identifier)
+        {
+            return await _context.BankAccounts!.Where(x => x.Identifier == identifier).FirstOrDefaultAsync();
+        }
+
+        public async Task<IEnumerable<BankAccount>> FindByBalanceGreaterThan(double balance)
+        {
+            return await _context.BankAccounts!.Where(x => x.Balance > balance).ToListAsync();
+        }
+
+        public async Task<IEnumerable<BankAccount>> FindByBalanceLessThan(double balance)
+        {
+            return await _context.BankAccounts!.Where(x => x.Balance < balance).ToListAsync();
+        }
+
+        public async Task WithdrawBankAccountByIdentifier(BankAccount bankAccount)
+        {
+            var account = await _context.BankAccounts!.Where(x => x.Identifier == bankAccount.Identifier).FirstOrDefaultAsync();
+
+            if (account != null)
+            {
+                throw new Exception($"No se pudo actualizar en mysql la cuenta de banco con identifier {bankAccount.Identifier}");
+            }
+
+            if (account.Balance < bankAccount.Balance) 
+            {
+                throw new Exception($"El balance de la cuenta es menor que el dinero que desea retirar para {bankAccount.Id}");
+
+            }
+
+            account.Balance -= bankAccount.Balance;
+            await UpdateAsync(account);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G1Xo8hrAmoG8JL2nWb5qud4bARHZTDIJT68EDblc8z8=",
+  "Source": "Banking.Account.Command.Api",
+  "BasePath": "_content/Banking.Account.Command.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
